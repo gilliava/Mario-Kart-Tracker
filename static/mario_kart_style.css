@@ -1,0 +1,34 @@
+body {
+    background-image: url("Background.jpg")
+}
+/* Make our paragraph red and centered */
+p {
+    font-family: "TextFont";
+    text-align: left;
+    color: white;
+}
+h1{
+    font-family: 'CustomFont';
+    text-align: center;
+    color: white;
+}
+form {
+    font-family: "TextFont";
+    text-align: left;
+    color: white;
+}
+comp-select {
+    color:blueviolet
+}
+@font-face{
+    font-family: "TextFont";
+    src: url("Orbitron-VariableFont_wght.ttf")
+}
+@font-face{
+    font-family: "CustomFont";
+    src: url("mario_kart_f2.ttf");
+}
+div.form-row {
+    margin:10px;
+    color:black
+}
